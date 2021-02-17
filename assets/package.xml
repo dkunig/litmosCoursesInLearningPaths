@@ -2,8 +2,16 @@
 <Package>
     <types>
         <members>litmosAddCoursesToLearningPathsSingle</members>
-        <members>litmosAddCoursesToLearningPathsSingleTEST</members>
+        <members>litmosAddCoursesToLPSingleTEST</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>litmosCourseInLP</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Litmos__Program__c.Belongs_to_Learning_Path__c</members>
+        <name>CustomField</name>
     </types>
     <version>50.0</version>
 </Package>
